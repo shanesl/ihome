@@ -1,18 +1,19 @@
 # 获取图片验证码
 import random
+import re
 
-from flask import request, abort, current_app, make_response, Response, jsonify
+from flask import request, abort, current_app, make_response, Response, jsonify, session
 
-from ihome import sr
+from ihome import sr, db
 from ihome.libs.captcha.pic_captcha import captcha
 from ihome.models import User
 from ihome.modules.api import api_blu
 from ihome.utils.constants import IMAGE_CODE_REDIS_EXPIRES, SMS_CODE_REDIS_EXPIRES
 
-# 获取图片验证码
 from ihome.utils.response_code import RET, error_map
 
 
+# 获取图片验证码
 @api_blu.route("/imagecode")
 def get_img_code():
     # 获取参数
@@ -28,7 +29,7 @@ def get_img_code():
     # 保存验证码文字和图片key redis 方便设置过期时间，性能也好，键值关系满足需求
     try:
         if pre:
-            sr.delete("image_code_id"+pre)
+            sr.delete("image_code_id" + pre)
 
         sr.set("image_code_id" + cur, img_text, ex=IMAGE_CODE_REDIS_EXPIRES)
     except BaseException as e:
@@ -42,7 +43,6 @@ def get_img_code():
     return response
 
 
-# 获取短信验证码
 # 获取短信验证码
 @api_blu.route("/smscode", methods=["POST"])
 def get_sms_code():
@@ -101,3 +101,61 @@ def get_sms_code():
     # json 返回发送结果
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
 
+
+# 注册
+@api_blu.route("/user",methods=["POST"])
+def user():
+    # 获取参数
+    phonecode = request.json.get("phonecode")
+    mobile = request.json.get("mobile")
+    password = request.json.get("password")
+    # 校验参数
+    # print(sms_code,mobile,password)
+    if not all([phonecode, mobile, password]):
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+    # 手机号校验
+    if not re.match(r"1[345678]\d{9}$", mobile):
+        # print("手机校验失败")
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+    # 判断用户是否一存在
+    try:
+        user = User.query.filter(User.mobile==mobile).first()
+    except BaseException as  e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR,errmsg=error_map[RET.DBERR])
+
+    if user:
+        return jsonify(errno=RET.DATAEXIST,errmsg=error_map[RET.DATAEXIST])
+    # 校验短信验证码，更具手机号取出短信验证码
+    # print("手机校验通过了")
+    try:
+        real_phonecode = sr.get("sms_code_id" + mobile)
+    except BaseException as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
+    # 如获取到了验证码
+    if real_phonecode != phonecode:
+        # print("验证码错误")
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+
+    # 记录用户数据
+    user = User()
+    user.mobile = mobile
+    user.name = mobile
+    # user.password_hash=password   #  直接存储密码为明文密码  不安全
+
+    # 使用计算属性封装密码
+    user.password = password
+    db.session.add(user)
+
+    try:
+        db.session.commit()
+    except BaseException as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
+
+    # 使用session 记录用户登录状态，记录主键就可以查询出其他的数据
+    session["user_id"] = user.id
+
+    # json 返回结果
+    return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
