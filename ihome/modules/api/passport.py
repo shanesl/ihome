@@ -105,7 +105,7 @@ def get_sms_code():
 
 
 # 注册
-@api_blu.route("/user",methods=["POST"])
+@api_blu.route("/user", methods=["POST"])
 def user():
     # 获取参数
     phonecode = request.json.get("phonecode")
@@ -121,13 +121,13 @@ def user():
         return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
     # 判断用户是否一存在
     try:
-        user = User.query.filter(User.mobile==mobile).first()
+        user = User.query.filter(User.mobile == mobile).first()
     except BaseException as  e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR,errmsg=error_map[RET.DBERR])
+        return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
 
     if user:
-        return jsonify(errno=RET.DATAEXIST,errmsg=error_map[RET.DATAEXIST])
+        return jsonify(errno=RET.DATAEXIST, errmsg=error_map[RET.DATAEXIST])
     # 校验短信验证码，更具手机号取出短信验证码
     # print("手机校验通过了")
     try:
@@ -164,7 +164,7 @@ def user():
 
 
 # 登录
-@api_blu.route("/session",methods=["POST",])
+@api_blu.route("/session", methods=["POST"])
 def login():
     # 获取参数
     mobile = request.json.get("mobile")
@@ -189,11 +189,29 @@ def login():
         return jsonify(errno=RET.PWDERR, errmsg=error_map[RET.PWDERR])
 
     # 使用session记录用户登录状态 记录主键就可以查询出其他的数据
-    session["user_id"] = user.id
-    session["is_admin"] = user.is_admin
-
-    # 记录最后登录时间  使用sqlalchemy自动提交机制
-    user.last_login = datetime.now()
+    sr.set("user_id",user.id)
 
     # json返回数据
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
+
+
+# 获取登录数据
+@api_blu.route("/session")
+def session():
+    # 获取参数
+    user_id = sr.get("user_id")
+
+    if not user_id:
+        return jsonify(errno=RET.SESSIONERR, errmsg=error_map[RET.SESSIONERR])
+
+    try:
+        user = User.query.get(user_id)
+    except BaseException as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
+
+    data = {
+        "name": user.name,
+        "user_id": user_id
+    }
+    return jsonify(errno=RET.OK, errmsg=error_map[RET.OK], data=data)
