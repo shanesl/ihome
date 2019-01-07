@@ -6,13 +6,13 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context  # 全局取消证书验证
 
 # 说明：主账号，登陆云通讯网站后，可在"控制台-应用"中看到开发者主账号ACCOUNT SID
-_accountSid = '8aaf0708568d4143015697b0f4960888'
+_accountSid = '8a216da867e881cb0167f44e97650773'
 
 # 说明：主账号Token，登陆云通讯网站后，可在控制台-应用中看到开发者主账号AUTH TOKEN
-_accountToken = '57c6c3ef3cef47e680519a734f6812f8'
+_accountToken = '66b6c1e4d0b44f2d9b1969069b9a98b5'
 
 # 请使用管理控制台首页的APPID或自己创建应用的APPID
-_appId = '8aaf0708568d4143015697b0f56e088f'
+_appId = '8a216da867e881cb0167f44e97b70779'
 
 # 说明：请求地址，生产环境配置成app.cloopen.com
 _serverIP = 'sandboxapp.cloopen.com'

@@ -7028,3 +7028,196 @@ INFO /home/python/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_i
 INFO /home/python/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:87  * Restarting with stat
 WARNING /home/python/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:87  * Debugger is active!
 INFO /home/python/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:87  * Debugger PIN: 263-658-072
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:37] "GET / HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /api/v1.0/session HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:38] "GET /api/v1.0/areas HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:39] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:41] "GET /register.html HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:41] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:41] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:41] "GET /api/v1.0/imagecode?cur=3fc4669a-4cdd-4d90-bdee-ad30df55a887&pre= HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:42] "GET /api/v1.0/imagecode?cur=16c527ad-ff47-4eaa-9369-7715d5a6788d&pre=3fc4669a-4cdd-4d90-bdee-ad30df55a887 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:45] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:41:53] "GET /api/v1.0/imagecode?cur=b0704604-4feb-4425-a688-b141107e2642&pre=16c527ad-ff47-4eaa-9369-7715d5a6788d HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:46:14] "GET /api/v1.0/imagecode?cur=1&pre=2 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:47:30] "GET /api/v1.0/imagecode?cur=1&pre=2 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:47:32] "GET /api/v1.0/imagecode?cur=1&pre=2 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:49:12] "GET /api/v1.0/imagecode?cur=1&pre=2 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:49:14] "GET /api/v1.0/imagecode?cur=1&pre=2 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:49:21] "GET /api/v1.0/imagecode?cur=2&pre=1 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:50:25] "GET /api/v1.0/imagecode?cur=2&pre=1 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:50:41] "GET /api/v1.0/imagecode?cur=e85704be-3904-4dd9-bed5-64ad7370c3f0&pre=b0704604-4feb-4425-a688-b141107e2642 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 11:59:03] "GET /api/v1.0/imagecode?cur=2&pre=1 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:06] "GET /api/v1.0/session HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:06] "GET /api/v1.0/areas HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:06] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:08] "GET /api/v1.0/imagecode?cur=de5e07ce-9b5a-4fa2-b9ef-0433d5244c66&pre= HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:09] "GET /api/v1.0/imagecode?cur=31ea6b00-14f1-41a6-937b-a9a9372e50be&pre=de5e07ce-9b5a-4fa2-b9ef-0433d5244c66 HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:12] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:39] "GET /api/v1.0/session HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:39] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:39] "GET /api/v1.0/areas HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:41] "GET /api/v1.0/imagecode?cur=636394c1-2152-48ed-94be-4cb484524f49&pre= HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:07:44] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/__init__.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:25] "GET /api/v1.0/session HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:25] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:25] "GET /api/v1.0/areas HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:27] "GET /api/v1.0/imagecode?cur=e385654b-3f84-460e-9b19-54358dbc6a31&pre= HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:28] "GET /api/v1.0/imagecode?cur=e3753b29-dada-46e7-9086-b836a5c2eb32&pre=e385654b-3f84-460e-9b19-54358dbc6a31 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:28] "GET /api/v1.0/imagecode?cur=a0d4954f-4d5e-462d-8306-7b328fdc968b&pre=e3753b29-dada-46e7-9086-b836a5c2eb32 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:29] "GET /api/v1.0/imagecode?cur=8012fa09-cb0b-4c23-a8d3-d3cedc468fc2&pre=a0d4954f-4d5e-462d-8306-7b328fdc968b HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:29] "GET /api/v1.0/imagecode?cur=6bf4cf63-9bad-4482-8dd8-04c677d01d9c&pre=8012fa09-cb0b-4c23-a8d3-d3cedc468fc2 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:29] "GET /api/v1.0/imagecode?cur=31abfe0b-f84a-412f-b430-2e38aa196da3&pre=6bf4cf63-9bad-4482-8dd8-04c677d01d9c HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:29] "GET /api/v1.0/imagecode?cur=60aa99c3-fa32-4fe9-b48e-d65e96c365fc&pre=31abfe0b-f84a-412f-b430-2e38aa196da3 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:30] "GET /api/v1.0/imagecode?cur=1a206863-5249-4204-acbc-64907a9664fa&pre=60aa99c3-fa32-4fe9-b48e-d65e96c365fc HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:30] "GET /api/v1.0/imagecode?cur=1fa41e16-e40f-4a66-8ff0-24bdbefb8ce6&pre=1a206863-5249-4204-acbc-64907a9664fa HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:30] "GET /api/v1.0/imagecode?cur=a7b181a2-d294-482e-a250-beb9d37caf8e&pre=1fa41e16-e40f-4a66-8ff0-24bdbefb8ce6 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:30] "GET /api/v1.0/imagecode?cur=2cda2b8f-b1b6-4fad-86a6-76d30675b4c1&pre=a7b181a2-d294-482e-a250-beb9d37caf8e HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:30] "GET /api/v1.0/imagecode?cur=87132e86-9b4b-4d60-ac83-fa3e613368ad&pre=2cda2b8f-b1b6-4fad-86a6-76d30675b4c1 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:31] "GET /api/v1.0/imagecode?cur=b437ef03-6b8f-4f6f-b313-a9ecb13b206c&pre=87132e86-9b4b-4d60-ac83-fa3e613368ad HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:31] "GET /api/v1.0/imagecode?cur=2d31cc8d-8445-4faa-8b31-35413124cc49&pre=b437ef03-6b8f-4f6f-b313-a9ecb13b206c HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:31] "GET /api/v1.0/imagecode?cur=d5484e80-b29d-4f6f-a8c1-cec7364de3e1&pre=2d31cc8d-8445-4faa-8b31-35413124cc49 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:31] "GET /api/v1.0/imagecode?cur=71a29c59-6b21-430d-a33a-becc08f161d2&pre=d5484e80-b29d-4f6f-a8c1-cec7364de3e1 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:32] "GET /api/v1.0/imagecode?cur=9afa699b-365b-4403-b766-e9c8189645d2&pre=71a29c59-6b21-430d-a33a-becc08f161d2 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:32] "GET /api/v1.0/imagecode?cur=4241dffa-b5cb-49ed-88c5-4f505aa9467a&pre=9afa699b-365b-4403-b766-e9c8189645d2 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:32] "GET /api/v1.0/imagecode?cur=35aaa2a5-78f5-4edf-aea1-ee6a0dab4ff9&pre=4241dffa-b5cb-49ed-88c5-4f505aa9467a HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:32] "GET /api/v1.0/imagecode?cur=14242f15-0bd4-4a7b-9d84-128c5cc3cbc0&pre=35aaa2a5-78f5-4edf-aea1-ee6a0dab4ff9 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:33] "GET /api/v1.0/imagecode?cur=2839f0a4-23ce-4d29-ba82-06aaff6e8ddf&pre=14242f15-0bd4-4a7b-9d84-128c5cc3cbc0 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:33] "GET /api/v1.0/imagecode?cur=0a9fa22c-baa6-4683-aff7-b22c3a9a4a9b&pre=2839f0a4-23ce-4d29-ba82-06aaff6e8ddf HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:33] "GET /api/v1.0/imagecode?cur=9d024cc3-d3a9-49d9-8551-756d61a3d898&pre=0a9fa22c-baa6-4683-aff7-b22c3a9a4a9b HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:33] "GET /api/v1.0/imagecode?cur=c1d6c8a2-cd81-476f-968a-8c065c63037c&pre=9d024cc3-d3a9-49d9-8551-756d61a3d898 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:33] "GET /api/v1.0/imagecode?cur=963e0dfc-2b9c-4fd6-a4b3-43802263cc64&pre=c1d6c8a2-cd81-476f-968a-8c065c63037c HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:34] "GET /api/v1.0/imagecode?cur=b281af0a-72fb-4905-9abf-9b4d3a93a5c4&pre=963e0dfc-2b9c-4fd6-a4b3-43802263cc64 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:34] "GET /api/v1.0/imagecode?cur=fca356bc-4f52-4d58-8119-d150c8f27a02&pre=b281af0a-72fb-4905-9abf-9b4d3a93a5c4 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:34] "GET /api/v1.0/imagecode?cur=7a40fb7d-c396-4197-bca3-c4dadf34f53f&pre=fca356bc-4f52-4d58-8119-d150c8f27a02 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:35] "GET /api/v1.0/imagecode?cur=bca1896b-a620-412f-b055-621fd1e17ee1&pre=7a40fb7d-c396-4197-bca3-c4dadf34f53f HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:35] "GET /api/v1.0/imagecode?cur=2d810cde-52a1-4e2c-9571-0221dab56559&pre=bca1896b-a620-412f-b055-621fd1e17ee1 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:36] "GET /api/v1.0/imagecode?cur=728c09c7-a05d-4c04-82b8-19d6f72d2e5f&pre=2d810cde-52a1-4e2c-9571-0221dab56559 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:36] "GET /api/v1.0/imagecode?cur=86ecb553-52de-4f15-87d5-bb98d2456b74&pre=728c09c7-a05d-4c04-82b8-19d6f72d2e5f HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:39] "GET /api/v1.0/imagecode?cur=17b95dc5-a497-4265-a340-6b9b9493749b&pre=86ecb553-52de-4f15-87d5-bb98d2456b74 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:39] "GET /api/v1.0/imagecode?cur=237b867a-0772-4d01-8879-8fa079011a80&pre=17b95dc5-a497-4265-a340-6b9b9493749b HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:40] "GET /api/v1.0/imagecode?cur=201b0427-a735-40f5-8694-3ebde571adbc&pre=237b867a-0772-4d01-8879-8fa079011a80 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:41] "GET /api/v1.0/imagecode?cur=47ce7534-6636-4009-9a87-a222d37f75bc&pre=201b0427-a735-40f5-8694-3ebde571adbc HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:42] "GET /api/v1.0/imagecode?cur=19c94d20-999f-4b05-a530-52dc94f64b78&pre=47ce7534-6636-4009-9a87-a222d37f75bc HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:43] "GET /api/v1.0/imagecode?cur=bdb56e94-d78a-4072-8e5a-11bc84e9b0e2&pre=19c94d20-999f-4b05-a530-52dc94f64b78 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:43] "GET /api/v1.0/imagecode?cur=e0f917f1-99cd-4d20-afd2-752203de4de4&pre=bdb56e94-d78a-4072-8e5a-11bc84e9b0e2 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:44] "GET /api/v1.0/imagecode?cur=a1a8874c-03c3-4557-a458-3a40a71cb904&pre=e0f917f1-99cd-4d20-afd2-752203de4de4 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:45] "GET /api/v1.0/imagecode?cur=7e0b0711-e832-4c5e-8dd0-f60661ac3f78&pre=a1a8874c-03c3-4557-a458-3a40a71cb904 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:45] "GET /api/v1.0/imagecode?cur=b1c5ab77-6f06-43e2-857f-febcf0ffaf92&pre=7e0b0711-e832-4c5e-8dd0-f60661ac3f78 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:46] "GET /api/v1.0/imagecode?cur=24428208-6740-497c-8c20-6b3fb431c495&pre=b1c5ab77-6f06-43e2-857f-febcf0ffaf92 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:47] "GET /api/v1.0/imagecode?cur=144a8fb3-65fd-4437-9d47-7476da423a41&pre=24428208-6740-497c-8c20-6b3fb431c495 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:47] "GET /api/v1.0/imagecode?cur=740161c0-6de5-4bcf-8d6b-5c3cbd8afc7f&pre=144a8fb3-65fd-4437-9d47-7476da423a41 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:48] "GET /api/v1.0/imagecode?cur=c73d29d8-57d5-4197-a2c4-5f6760c0067f&pre=740161c0-6de5-4bcf-8d6b-5c3cbd8afc7f HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:49] "GET /api/v1.0/imagecode?cur=bdadad48-ac9d-4688-9cf1-c6ad0e2dd013&pre=c73d29d8-57d5-4197-a2c4-5f6760c0067f HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:49] "GET /api/v1.0/imagecode?cur=7ead4306-9157-4e51-b8f1-bb637de475bb&pre=bdadad48-ac9d-4688-9cf1-c6ad0e2dd013 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:50] "GET /api/v1.0/imagecode?cur=eacb266a-bf3d-4ee7-a487-376cfef38145&pre=7ead4306-9157-4e51-b8f1-bb637de475bb HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:51] "GET /api/v1.0/imagecode?cur=6ec8c3a5-3831-4f64-920d-24b3259395d0&pre=eacb266a-bf3d-4ee7-a487-376cfef38145 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:51] "GET /api/v1.0/imagecode?cur=5aa65223-7770-44bc-9fd8-03b5370d27f4&pre=6ec8c3a5-3831-4f64-920d-24b3259395d0 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:10:55] "GET /api/v1.0/imagecode?cur=a11d8f5e-5260-4ac9-ac21-045137166962&pre=5aa65223-7770-44bc-9fd8-03b5370d27f4 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:11:24] "GET /api/v1.0/imagecode?cur=2&pre=1 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:17:51] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:17:51] "GET /api/v1.0/session HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:17:51] "GET /api/v1.0/areas HTTP/1.1" 404 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:17:53] "GET /api/v1.0/imagecode?cur=d2044f41-d876-41a6-a219-4ecc6088353c&pre= HTTP/1.1" 200 -
+ERROR /Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py:77 No module named 'MySQLdb'
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:18:07] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:18:08] "GET /api/v1.0/imagecode?cur=bc2d24d0-c227-471a-9cd2-ce4cbc0ed282&pre=d2044f41-d876-41a6-a219-4ecc6088353c HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:18:10] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:18:12] "GET /api/v1.0/imagecode?cur=d5a5cce6-1aa9-4c74-835a-8114109d973a&pre=bc2d24d0-c227-471a-9cd2-ce4cbc0ed282 HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:19:11] "GET /api/v1.0/imagecode?cur=a8fc4059-cf17-4279-af9a-5c284f2c998a&pre=d5a5cce6-1aa9-4c74-835a-8114109d973a HTTP/1.1" 200 -
+ERROR /Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py:77 No module named 'MySQLdb'
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:19:16] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:19:18] "GET /api/v1.0/imagecode?cur=e130875a-de00-462d-8a86-0c23e1e1b184&pre=a8fc4059-cf17-4279-af9a-5c284f2c998a HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:21:22] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:21:24] "GET /api/v1.0/imagecode?cur=736f2e9f-c706-42f1-9d1a-1c67bdacbbee&pre=e130875a-de00-462d-8a86-0c23e1e1b184 HTTP/1.1" 200 -
+ERROR /Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py:77 No module named 'MySQLdb'
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:21:37] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:38:14] "GET /api/v1.0/imagecode?cur=2&pre=1 HTTP/1.1" 200 -
+ERROR /Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py:62 must be str, not int
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:42:03] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:43:07] "POST /api/v1.0/smscode HTTP/1.1" 500 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+ERROR /Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py:62 must be str, not int
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:45:01] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+ERROR /Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py:62 must be str, not int
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:45:15] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:45:57] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:46:18] "GET /api/v1.0/imagecode?cur=2&pre=1 HTTP/1.1" 200 -
+INFO /Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py:99 短信验证码位：7005
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 14:46:47] "POST /api/v1.0/smscode HTTP/1.1" 200 -
