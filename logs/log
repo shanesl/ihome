@@ -7292,3 +7292,9 @@ INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_inter
 WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
 INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
 INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [07/Jan/2019 15:16:05] "POST /api/v1.0/user HTTP/1.1" 200 -
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 129-222-394
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/Users/sunlu/Desktop/Local_Storage/ihome/ihome/modules/api/passport.py', reloading
+INFO /Users/sunlu/.virtualenvs/ihome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
