@@ -1,6 +1,8 @@
 # 获取图片验证码
+
 import random
 import re
+from datetime import datetime
 
 from flask import request, abort, current_app, make_response, Response, jsonify, session
 
@@ -162,3 +164,36 @@ def user():
 
 
 # 登录
+@api_blu.route("/session",methods=["POST",])
+def login():
+    # 获取参数
+    mobile = request.json.get("mobile")
+    password = request.json.get("password")
+    # 校验参数
+    if not all([mobile, password]):
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+
+    # 取出用户数据
+    try:
+        user = User.query.filter_by(mobile=mobile).first()
+    except BaseException as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
+
+    # 判断用户是否存在
+    if not user:
+        return jsonify(errno=RET.USERERR, errmsg=error_map[RET.USERERR])
+
+    # 校验密码
+    if not user.check_password(password):
+        return jsonify(errno=RET.PWDERR, errmsg=error_map[RET.PWDERR])
+
+    # 使用session记录用户登录状态 记录主键就可以查询出其他的数据
+    session["user_id"] = user.id
+    session["is_admin"] = user.is_admin
+
+    # 记录最后登录时间  使用sqlalchemy自动提交机制
+    user.last_login = datetime.now()
+
+    # json返回数据
+    return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])

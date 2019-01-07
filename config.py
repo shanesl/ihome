@@ -15,6 +15,7 @@ class Config:  # 定义配置类  封装所有的配置, 方便对配置统一�
     SESSION_USE_SIGNER = True  # 设置sessionid加密  如果加密, 必须设置应用秘钥
     SECRET_KEY = "QLDEP2v5YstktI0qP8SEk3MowGCG4KCegZKhYgZq33HB9dUV0Vb7FVzg30QLf16V"  # 设置应用秘钥
     PERMANENT_SESSION_LIFETIME = timedelta(days=7)  # 设置session过期时间  默认支持设置过期时间
+    SQLALCHEMY_COMMIT_ON_TEARDOWN = True  # 设置数据库自动提交(在每次请求结束后, 会自动提交)
 
 
 # 针对不同的编程环境 定义配置子类
