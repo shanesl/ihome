@@ -14,6 +14,7 @@ from ihome.utils.constants import IMAGE_CODE_REDIS_EXPIRES, SMS_CODE_REDIS_EXPIR
 
 from ihome.utils.response_code import RET, error_map
 
+# 主页展示
 
 # 获取图片验证码
 @api_blu.route("/imagecode")
