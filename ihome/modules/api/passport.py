@@ -189,7 +189,7 @@ def login():
         return jsonify(errno=RET.PWDERR, errmsg=error_map[RET.PWDERR])
 
     # 使用session记录用户登录状态 记录主键就可以查询出其他的数据
-    sr.set("user_id",user.id)
+    session['user_id'] = user.id
 
     # json返回数据
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
@@ -197,9 +197,9 @@ def login():
 
 # 获取登录数据
 @api_blu.route("/session")
-def session():
+def login_data():
     # 获取参数
-    user_id = sr.get("user_id")
+    user_id = session.get("user_id")
 
     if not user_id:
         return jsonify(errno=RET.SESSIONERR, errmsg=error_map[RET.SESSIONERR])
